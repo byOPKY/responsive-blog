@@ -1,0 +1,188 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 14px;
+}
+.head{
+	background-color: #1C1821;
+}
+
+.logo{
+	max-width: 100%
+}
+.menu a{
+	margin-top: 3%;
+	text-decoration: none;
+}
+.nav{
+	padding: 2%;
+	float: right;
+	color: white
+}
+.banner{
+	background-image: url("../image/header-image.jpg");
+	background-size: 100%;
+	padding: 10% 20%;
+	
+}
+.bg-black{
+	background-color: black;
+}
+.banner-fondo{
+	padding: 10%;
+}
+
+.image-size{
+ 	max-width: 100%;
+ 	display: flex;
+}
+.text-white{
+	color: white;
+}
+.seccion{
+	background-color: #2D2735;
+
+}
+.text-center{
+	text-align: center;
+}
+.text-cour{
+	font-family: 'Courgette';
+	color: #F7BA6A;
+}
+.text-open{
+	font-family: 'Open sans';
+	font-style: italic;
+	color: white;
+}
+.text-op{
+	font-family: 'Open sans';
+	color: white;
+	font-size:0.9em;
+}
+.fondo-imagen{
+	padding: 10%;
+}
+.bloque1{
+	padding: 2% 1% 0 0;
+}
+.bloque2{
+	padding: 2% 0.5% 0 0.5%;
+}
+.bloque3{
+	padding: 2% 0 0 1%;
+}
+.l-vertical{
+	margin-top: 2%;
+}
+.x-vertical{
+	margin-top: 2%;
+	padding: 0 0 0 2%;
+}
+.fondo-lver{
+	padding: 4%;
+}
+input{
+	width: 100%;
+	background-color: #2D2735;
+	color: white;
+	padding: 3%;
+	border-radius: 2%;
+}
+.ico{
+	color: white;
+	font-size: 20px;
+}
+section .separacion{
+	padding: 0 4%;
+}
+
+.redes{
+	background-color: #2D2735; 
+	border-radius: 50%;
+	padding: 2% 3%;
+	margin: 2% 1% 0 0;
+	display: inline-block;
+}
+a:hover{
+	color: #F7BA6A;
+}
+.redes:hover{
+	background-color: white;
+}
+.ico:hover{
+	color: #F7BA6A;
+}
+.letra-xl{
+	font-size: 5em;
+}
+.letra-l{
+	font-size: 1.5em
+}
+.burger{
+	display: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+	body{
+		font-size: 15px;
+	}
+	.letra-xl{
+	font-size: 4em;
+	}
+	.letra-l{
+	font-size: 1.2em
+	}
+} 
+
+@media screen and (max-width: 600px) {
+	body{
+		font-size: 14px;
+	}
+	.letra-xl{
+		font-size: 5em;
+	}
+	.letra-l{
+		font-size: 1.8em
+	}
+	.col-4, .col-7, .col-5{
+		width: 100%
+	}
+	.menu{
+		display: none;
+	}
+	.banner{
+		padding: 10%;
+		margin-bottom: 3%;
+	}
+	.banner-fondo{
+		padding: 5% 1%;
+	}
+	.bloque1, .bloque2, .bloque3{
+		padding: 4% 0;
+	}
+	.logo{
+		width: 90%%;
+	}
+	.x-vertical{
+		padding: 0;
+	}
+	.col-3{
+		width: 70%;
+	}
+	.col-9{
+		width: 30%
+	}
+	.burger{
+		font-size: 40px;
+		color: white;	
+		display: block;
+		text-align: right;
+		margin-top: 18%;
+		text-decoration: none;
+	}
+}
