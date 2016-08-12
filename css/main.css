@@ -137,6 +137,25 @@ a:hover{
 	.letra-l{
 	font-size: 1.2em
 	}
+	.menu{
+		display: none;
+	}
+	.burger{
+		font-size: 40px;
+		color: white;	
+		display: block;
+		text-align: right;
+		margin-top: 10%;
+		text-decoration: none;
+	}
+	.logo{
+		width: 60%;
+	}
+	.col-3{
+		width: 70%;
+	}
+	.col-9{
+		width: 30%
 } 
 
 @media screen and (max-width: 600px) {
@@ -157,7 +176,7 @@ a:hover{
 	}
 	.banner{
 		padding: 10%;
-		margin-bottom: 3%;
+		margin: 5% 0 ;
 	}
 	.banner-fondo{
 		padding: 5% 1%;
@@ -166,7 +185,7 @@ a:hover{
 		padding: 4% 0;
 	}
 	.logo{
-		width: 90%%;
+		width: 90%;
 	}
 	.x-vertical{
 		padding: 0;
